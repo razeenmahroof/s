@@ -1,0 +1,232 @@
+.carousel-container {
+
+    height: 100%;
+
+    position: relative;
+
+    overflow: hidden;
+
+  }
+
+  
+
+  .left-side {
+
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+  
+
+  .left-side img {
+
+    margin-top: 20px;
+
+  }
+
+  
+
+  .description-container {
+
+    text-align: center;
+
+    
+
+  }
+
+  
+
+  .image-container {
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+  
+
+  .image-container img {
+
+    margin: 10px 0;
+
+  }
+
+  
+
+  .description-container h2 {
+
+  margin-bottom: 10px; /* Adjust margin as needed */
+
+}
+
+
+
+.project-description {
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+.project_description-container {
+
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 12.5em;
+  
+}
+
+.provide-image-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 10em;
+}
+
+.provide-Audios-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 9.5em;
+}
+
+.Project-Requirements-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 4.5em;
+}
+
+.generate-code-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 5em;
+}
+
+.user-stroies-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 5em;
+}
+
+.unit-test-cases-container{
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center; /* Align items vertically */
+    padding: 5em;
+}
+
+.lots-more-container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center; /* Align items vertically */
+
+  padding: 10em;
+
+}
+
+.lots-more{
+    margin-right: auto;
+    margin-bottom: 8.8em;
+}
+
+
+.provide-Image {
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+
+
+.Provide-Audios{
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+
+
+.Project-Requirements{
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+
+.generate-Code{
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+
+
+.generate-User-Stories{
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+
+
+
+.generate-Unit-Test-Cases{
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+
+
+
+.image-container1 {
+
+  position: relative; /* Make the container a positioned parent */
+
+}
+
+
+
+
+.group3-1 {
+
+  position: absolute; /* Position the image absolutely */
+
+  top: 0; /* Position from the top */
+
+  right: 0; /* Position from the right */
+
+}

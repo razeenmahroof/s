@@ -1,0 +1,132 @@
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none !important;
+}
+.MuiDataGrid-columnHeaders {
+  background-color: #d7e0e3;
+  height: 100vh !important;
+}
+.MuiDataGrid-main {
+  border: 1px solid #d7e0e3;
+  border-radius: 5px;
+}
+.MuiDataGrid-root {
+  border: 0 !important;
+}
+.MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #01b27c !important;
+}
+.MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+  background-color: #01b27d27 !important;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.MuiPagination-root .MuiPagination-ul {
+  flex-wrap: nowrap;
+}
+.MuiPagination-root .MuiPagination-ul li:first-child {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MuiPagination-root .MuiPagination-ul li:first-child > button::after {
+  margin-left: 10px;
+  content: 'Prev';
+}
+.MuiPagination-root .MuiPagination-ul li:last-child {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.MuiPagination-root .MuiPagination-ul li:last-child > button::before {
+  margin-right: 10px;
+  content: 'Next';
+}
+.MuiPaginationItem-root:hover {
+  color: #006e74 !important;
+  background-color: transparent !important;
+}
+.MuiPaginationItem-root {
+  color: #006e74 !important;
+  background-color: transparent !important;
+  border: 2px solid transparent !important;
+  border-radius: 0 !important;
+  font-weight: bolder !important;
+  min-width: fit-content !important;
+  height: fit-content !important;
+}
+
+.MuiPaginationItem-root.Mui-selected:hover {
+  color: #006e74 !important;
+  background-color: transparent !important;
+}
+.MuiButtonBase-root-MuiPaginationItem-root:focus-visible {
+  outline: 1px solid #006e74 !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 0 !important;
+}
+.MuiPaginationItem-root.Mui-selected {
+  color: #006e74 !important;
+  font-weight: 900 !important;
+  border-radius: 0 !important;
+  border-bottom: 2px solid #006e74 !important;
+  background-color: transparent !important;
+}
+
+.MuiDataGrid-footerContainer {
+  justify-content: center !important;
+  align-items: stretch !important;
+}
+.MuiDataGrid-columnHeaderTitle {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.MuiDataGrid-selectedRowCount {
+  display: none;
+}
+
+.MuiCheckbox-colorPrimary,
+.Mui-checked {
+  color: #006e74 !important;
+}
+
+.custom-cell-sticky,
+.custom-header-sticky {
+  position: sticky !important;
+}
+
+.custom-header-sticky {
+  background-color: #d7e0e3;
+}
+
+.custom-cell-sticky {
+  background-color: #fff;
+}
+
+.custom-sticky-left-zero {
+  left: 0;
+}
+
+.custom-sticky-right-zero {
+  right: 0;
+}
+
+.MuiDataGrid-cell {
+  padding: 5px 10px !important;
+}
+
+.MuiDataGrid-columnSeparator--sideRight {
+  display: none !important;
+}
+.MuiDataGrid-filler {
+  height: 200px !important;
+}
